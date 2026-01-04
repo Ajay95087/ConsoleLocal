@@ -10,7 +10,7 @@ namespace consoleapp
         {
             static void Main(string[] args)
             {
-                Console.WriteLine("For loop");
+                /*Console.WriteLine("For loop");
                 for (int i = 0; i < 10; i++)
                 {
                     Console.WriteLine(i.ToString());
@@ -22,20 +22,20 @@ namespace consoleapp
                     Console.WriteLine(a.ToString());
                     a--;
                 }
-                Console.ReadLine();
+                Console.ReadLine();*/
 
 
 
                 //variables
 
-                /* string name = "Ajay";
+                string name = "Ajay";
                 int age = 25;
                 float height = 5.11f;
 
                 Console.WriteLine("Name:" + name);
                 Console.WriteLine("Age" + age);
                 Console.WriteLine("Height" + height);
-                Console.ReadLine(); */
+                Console.ReadLine(); 
 
 
 
