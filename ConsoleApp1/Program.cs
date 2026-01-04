@@ -28,15 +28,14 @@ namespace consoleapp
 
             //variables
 
-             string name = "Ajay";
+            /*string name = "Ajay";
             int age = 25;
             float height = 5.11f;
 
             Console.WriteLine("Name:" + name);
             Console.WriteLine("Age" + age);
             Console.WriteLine("Height" + height);
-            Console.ReadLine(); 
-
+            Console.ReadLine(); */
 
 
             //Operator
@@ -47,6 +46,32 @@ namespace consoleapp
             Console.ReadLine();*/
 
 
+            //String
+
+            /*string txt = "hello world";
+            Console.WriteLine(txt.ToUpper());
+            Console.WriteLine(txt.ToLower());
+
+            Console.ReadLine();*/
+
+
+            string data = "apple, banana, mango";
+
+            //data.ToUpper();
+            //data.ToLower();
+
+
+            string[] fruits = data.Split('-');
+
+            foreach (var item in fruits) 
+            {
+                Console.WriteLine(item);
+            }
+
+            Console.WriteLine(data.ToUpper());
+            //Console.WriteLine(data.ToLower());
+
+            Console.ReadLine();
 
 
         }
