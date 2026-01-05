@@ -163,7 +163,11 @@ namespace consoleapp
 
 
 
-            string fullname= "Ajay kumar singh";
+            //05-01-2025
+
+
+
+            /*string fullname= "Ajay kumar singh";
 
 
             String[] part = fullname.Split(' ');
@@ -176,8 +180,31 @@ namespace consoleapp
             Console.WriteLine("Your middle name is;" + middlename);
             Console.WriteLine("Your last name is;" + lastname );
 
+            Console.ReadLine();*/
 
 
+
+            //String Length cheak
+
+
+            /*
+            string text = "hello World";
+            Console.WriteLine("The length of text :" + text.Length);
+            Console.ReadLine();*/
+
+            // string to variable
+
+            /*string msg = "hello";
+            Console.WriteLine(msg);
+            Console.ReadLine();*/
+
+            //two string add
+
+            string a = "Ajay";
+            string b = "kumar";
+            string result = a + " " + b;
+
+            Console.WriteLine(result);
             Console.ReadLine();
 
 
