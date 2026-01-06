@@ -158,29 +158,7 @@ namespace consoleapp
 
 
 
-            //Array
-
-
-
-
             //05-01-2025
-
-
-
-            /*string fullname= "Ajay kumar singh";
-
-
-            String[] part = fullname.Split(' ');
-
-            String firstname = part[0];
-            String middlename = part[1];
-            String lastname = part[2];
-
-            Console.WriteLine("Your first name is;"+ firstname);
-            Console.WriteLine("Your middle name is;" + middlename);
-            Console.WriteLine("Your last name is;" + lastname );
-
-            Console.ReadLine();*/
 
 
 
@@ -200,12 +178,65 @@ namespace consoleapp
 
             //two string add
 
-            string a = "Ajay";
+            /*string a = "Ajay";
             string b = "kumar";
             string result = a + " " + b;
 
             Console.WriteLine(result);
-            Console.ReadLine();
+            Console.ReadLine();*/
+
+
+
+
+            //Array
+
+
+            /*string fullname = "Ajay kumar singh";
+
+
+            String[] part = fullname.Split(' ');
+
+            String firstname = part[0];
+            String middlename = part[1];
+            String lastname = part[2];
+
+            Console.WriteLine("Your first name is;" + firstname);
+            Console.WriteLine("Your middle name is;" + middlename);
+            Console.WriteLine("Your last name is;" + lastname);
+
+            Console.ReadLine();*/
+
+
+
+
+            /*string str = "Ajay,Kumar,Maurya";
+            string[] a = str.Split(',');
+
+            foreach(string ss in a)
+            {
+                System.Console.WriteLine(ss);
+            }
+
+            Console.ReadLine();*/
+
+
+            /*string[]car = { "Bmw", "Volvo", "Mazda" } ;
+            //Console.WriteLine(car.Length);
+            for (int i = 0;i < car.Length; i++) 
+            {
+                Console.WriteLine(car[i]);
+            }
+            
+            Console.ReadLine();*/
+
+            /*int[] Number = {9, 20, 50, 8 } ;
+            Console.WriteLine(Number.Max());
+            Console.WriteLine(Number.Min());
+            Console.WriteLine(Number.Sum());
+            Console.WriteLine(Number.Sum (- Number.Min));
+
+            Console.ReadLine();*/
+
 
 
         }
