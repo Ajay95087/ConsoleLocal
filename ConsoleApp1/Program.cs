@@ -239,6 +239,40 @@ namespace consoleapp
 
 
 
+            //one dimensional array with random numbers
+
+            /*int[] numbers = { 1, 2, 3, 4, 5, };
+
+            Random r = new ();
+
+            for ( int i =0; i< numbers.Length; i++)
+
+                {
+                numbers[i] = r.Next();
+                Console.WriteLine(numbers[i]);
+            }
+
+            Console.ReadLine();*/
+
+            //var
+
+            /*{
+                object thing = "string";
+
+                var numbers = new int[5];
+
+            }*/
+
+            // foreach loop
+
+            int[] numbers = { 1, 2, 3, 4, 7, 8, 9 };
+
+            foreach (int each in numbers)
+            {
+                Console.WriteLine(each);
+            }
+            Console.ReadLine();
+
         }
     }
 }
