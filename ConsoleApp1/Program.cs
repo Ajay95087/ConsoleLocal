@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web;
 
 namespace consoleapp
 {
@@ -265,14 +266,176 @@ namespace consoleapp
 
             // foreach loop
 
-            int[] numbers = { 1, 2, 3, 4, 7, 8, 9 };
+            /* int[] numbers = { 1, 2, 3, 4, 7, 8, 9 };
 
-            foreach (int each in numbers)
+             foreach (int each in numbers)
+             {
+                 Console.WriteLine(each);
+             }
+             Console.ReadLine();*/
+
+
+
+
+            //data types Example
+
+
+
+            /*int a = 50;
+            float b = 30.5F;
+            double c = 20.995D;
+            bool isGreat = true;
+            char d = 'A';
+
+            Console.WriteLine(a);
+            Console.WriteLine(b);
+            Console.WriteLine(a + b);
+            Console.WriteLine(c);
+            Console.WriteLine(d);
+            Console.ReadLine();*/
+
+            //type casting
+
+            // there are two types of casting
+            // 1.Implicit casting (automatically size to bigger types)
+            // char to int to long to float to double
+
+            /*int x = 6;
+            double f = x;
+            int z = 'f';
+            Console.WriteLine(x);
+            Console.WriteLine(f);
+            Console.WriteLine(z);
+            Console.ReadLine();*/
+
+
+            // 2.Explicit casting (manually size to smaller types)
+
+            //double x = (double)3.5;
+            //Console.WriteLine(x);
+            /*int x = 6;
+            double f = x;
+            float b = 'f';
+            float var = Convert.ToInt16(4.55);
+            string sx = "Random string";
+            Console.WriteLine(x + f);
+            Console.ReadLine();*/
+
+            /*onsole.WriteLine("Enter your name");
+            string name = Console.ReadLine();
+            Console.WriteLine("hello" + name);
+
+
+            Console.WriteLine("How many candies doyou want");
+            string can = Console.ReadLine();
+            Console.WriteLine("You will get 4 candies" + 
+                (Convert.ToInt32(can)+4));
+             */
+
+            // Arithmetic Operators
+
+
+            /*int a = 4;
+            int b = 2;
+
+            Console.WriteLine("The value of a + b is : " + (a + b));
+            Console.WriteLine("The value of a - b is : " + (a - b));
+            Console.WriteLine("The value of a * b is : " + (a * b));
+
+            Console.ReadLine();*/
+
+
+            // AssignmentOperator
+
+
+            /*int a = 4;
+            int b = a;
+            //b += 4;
+            //b -= 4;
+            b *= 4;
+            Console.WriteLine(b);
+            Console.ReadLine();*/
+
+
+            //Logical Operator
+
+            /*
+            //Console.WriteLine(true && false);
+            //Console.WriteLine(false && false);
+            //Console.WriteLine(true && true);
+            //Console.WriteLine(false && true);
+
+
+
+            Console.WriteLine(true ||false);
+            Console.WriteLine(false|| false);
+            Console.WriteLine(true ||true);
+            Console.WriteLine(false|| true);
+            Console.ReadLine(); */
+
+
+            // Comparison Operator
+
+            /* Console.WriteLine(324 > 555);
+             Console.WriteLine(324 < 555);
+             Console.WriteLine(324 <= 555);
+             Console.WriteLine(324 >= 555);
+             Console.WriteLine(324 != 555);
+
+             Console.ReadLine();*/
+
+
+
+            /*string hello = "Hello world this is Ajay";
+            Console.WriteLine(hello.Length);
+            Console.WriteLine(hello.ToUpper());
+            Console.WriteLine(hello.ToLower());
+            Console.WriteLine(hello + "you are Nice");
+
+            Console.ReadLine();*/
+
+
+            /*string name = Console.ReadLine();
+            string candies = Console.ReadLine();
+            Console.WriteLine($"your name is {name}.you will get{candies}candies");
+            Console.ReadLine();*/
+
+
+            Console.WriteLine("Enter your age");
+            string strage = Console.ReadLine();
+            int age = Convert.ToInt32(strage);
+
+            //int age = 59;
+            if (age < 6)
             {
-                Console.WriteLine(each);
+                Console.WriteLine("you are just born");
             }
+            else if (age<12)
+            {
+                Console.WriteLine("Plese finish your high school");
+            }
+            else if (age<18)
+            {
+                Console.WriteLine("you are below 18");
+            }
+            else if (age <75)
+            {
+                Console.WriteLine("you can Drive");
+            }
+            else 
+            {
+                Console.WriteLine("you cannot Drive");
+            }
+
+
             Console.ReadLine();
 
+
+
+
+
+
         }
+
     }
 }
