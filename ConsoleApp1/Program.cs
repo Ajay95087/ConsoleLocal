@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.Design.Serialization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -9,6 +10,8 @@ namespace consoleapp
 {
     internal class Program
     {
+        private static string a;
+
         static void Main(string[] args)
 
         {
@@ -112,6 +115,7 @@ namespace consoleapp
             }
 
             Console.ReadLine();*/
+
 
 
 
@@ -401,22 +405,22 @@ namespace consoleapp
             Console.ReadLine();*/
 
 
-            Console.WriteLine("Enter your age");
+            /*Console.WriteLine("Enter your age");
             string strage = Console.ReadLine();
             int age = Convert.ToInt32(strage);
 
             //int age = 59;
             if (age < 6)
             {
-                Console.WriteLine("you are just born");
+                Console.WriteLine("you are just born or banned");
             }
             else if (age<12)
             {
-                Console.WriteLine("Plese finish your high school");
+                Console.WriteLine("Plese finish your high school or maybe you are banned");
             }
             else if (age<18)
             {
-                Console.WriteLine("you are below 18");
+                Console.WriteLine("you are below 18 ");
             }
             else if (age <75)
             {
@@ -428,14 +432,91 @@ namespace consoleapp
             }
 
 
+            Console.ReadLine();*/
+
+
+            /*Console.WriteLine("Enter a number");
+
+            string input = Console.ReadLine();
+            //a Console.ReadLine();
+            int a = Convert.ToInt32(input) * 2;
+            for (int i = 1; i < 10; i++)
+            {
+                Console.WriteLine(input + " * " + i.ToString()+" =" + a.ToString());
+            }
+            //Console.WriteLine(input + " * " + "1 =" + a.ToString());
+            //Console.WriteLine(input+" * "+ "2 ="+ a.ToString());
+            //Console.WriteLine(input + " *" + "3 =" + a.ToString());
+            //Console.WriteLine(input + " * " + "4 =" + a.ToString());
+            //Console.WriteLine(input + " * " + "5 =" + a.ToString());
+            //Console.WriteLine(input + " * " + "6 =" + a.ToString());
+            //Console.WriteLine(input + " * " + "7 =" + a.ToString());
+            //Console.WriteLine(input + " * " + "8 =" + a.ToString());
+            //Console.WriteLine(input + " * " + "10 =" + a.ToString());
+            Console.ReadLine();*/
+
+
+
+            /*int a = 45;
+            int b = 21;
+            
+            Console.WriteLine("The value is:" + (a + b));
+            Console.WriteLine("The value is:" + (a - b));
+            Console.WriteLine("The value is:" + (a * b));
+
+            Console.ReadLine();*/
+
+
+            /*Console.WriteLine("Press 1 for add");
+            Console.WriteLine("Press 2 for sub");
+            Console.WriteLine("Press 0 for exit");
+            string a = Console.ReadLine();
+            if (a == "1")
+            {
+                Console.WriteLine("Enter First no");
+                int firstno = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("Enter second no");
+                int secondno = Convert.ToInt32(Console.ReadLine());
+                int result = firstno + secondno;
+                Console.WriteLine("Result is " + result);
+                Console.ReadLine();
+            }
+
+            */
+            /*
+            for (int i =1;i<=10;++i)
+            {
+                if (i == 5 || i== 6)
+                {
+                    continue;
+                }
+                Console.WriteLine(i + "");
+                //if(i==5)
+                //{
+                //    break;
+                //}
+            }
             Console.ReadLine();
+            */
 
+            /*
+            int i = 1;
+            if(i==1)
+            {
+                Console.WriteLine("Hello codeing..");
+                goto down;
+            }
 
-
-
-
-
+            Console.WriteLine("Ajay Kumar..");
+        down:
+            Console.WriteLine("Manshi ..");
+            Console.ReadLine();
+            */
+            for (int i = 1; i <= 100; i++)
+            {
+                Console.WriteLine(i + "");
+            }
+            Console.ReadLine();
         }
-
     }
 }
